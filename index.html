@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayantan Chowdhury - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(#3baea0, #5e63b6, #a393eb, #adf7d1);
+            color: #ffffff;
+            overflow-x: hidden;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        body::-webkit-scrollbar {
+            width: 0;
+            background: transparent;
+        }
+
+        /*#page-frame {
+            border: 20px linear-gradeint(#27296d, #5e63b6, #a393eb, #f5c7f7); 
+            box-sizing: border-box;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 20px;
+        }*/
+
+        header {
+            
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #ffffff;
+        }
+
+        .navbar {
+            background: #000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand{
+            color: #42b883;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav a {
+            color: #680747 !important;
+            font-size: 1rem;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        .section {
+            text-align: center;
+            padding: 80px 0;
+            background: #000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .intro {
+            background: #000;
+        }
+
+        .intro img {
+            border-radius: 50%;
+            max-width: 150px;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .bio {
+            margin-top: 20px;
+            color: #430f58;
+            font-weight: bold;
+        }
+
+        .skills, .projects, .resume, .contact, .section, .navbar, .header {
+            background: linear-gradient(#3baea0, #93e4c1, #95e8d7, #adf7d1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: #347474;
+            font-weight: bold;
+        }
+        
+        .project {
+            margin-bottom: 40px;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project:hover img {
+            transform: scale(1.1);
+        }
+
+        .card {
+            background: rgba(127, 143, 244, 0.9);
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .resume .section {
+            padding: 40px 0;
+        }
+
+        .resume h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .resume .row {
+            margin-top: 20px;
+        }
+
+        .resume .col {
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            text-align: center;
+        }
+
+        .footer {
+            background: #adf7d1;
+            text-align: center;
+            padding: 20px 0;
+            animation: fadeIn 1s ease-in-out;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            color: #ffd700;
+        }
+
+        .resume-link {
+            color: #ffd700;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .resume-link:hover {
+            color: #ffffff;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="page-frame">
+        <header>
+            <h1>Sayantan Chowdhury</h1>
+        </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Sayantan Chowdhury</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#intro">Intro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="intro" class="section intro">
+        <img src="pic.jpg" alt="Sayantan Chowdhury">
+        <div class="bio">
+            <p class="lead">A passionate and detail-oriented individual with skills in Python, C, C++, Excel, Word, PowerPoint, Software Development Life Cycle (SDLC), Software Testing Life Cycle (STLC), Agile and Waterfall methodologies, and a bit of JavaScript. Possessing strong soft skills, including communication, leadership, creative thinking, analytical thinking, fast learning, and fast decision making.</p>
+        </div>
+    </div>
+
+    <div id="skills" class="section skills">
+        <h2>Skills</h2>
+        <p class="lead">Python, C, C++, Excel, Word, PowerPoint, SDLC, STLC, Agile, Waterfall, JavaScript, Communication, Leadership, Creative Thinking, Analytical Thinking, Fast Learning, Fast Decision Making.</p>
+    </div>
+
+    <div id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4 project">
+                <div class="card">
+                    <img src="https://miro.medium.com/v2/resize:fit:500/1*ia0OmAx4WAsJT_cVJTwxoA.jpeg" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Basic Python Calculator</h5>
+                        <p class="card-text">Implemented a simple calculator using Python with basic arithmetic operations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 project">
+                <div class="card">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglhlSBFYykpp2zdSQ28S1aHXHh9rr7u52cOk_chtOjbPIB7g65HwyS83smazJ_YYEKibm2N8X0HvYETwPrbEL-xzuCa8WIrPJobFRRuMGO4o-_FWivBSG6ZcuszYUM1sNMMv79tRntrc09Hbiw0J47fOnOCy1RWjTUxyzv7xGOhGxRwxYapKE7jeOa/s1200/Student%20Management%20System%20Project%20in%20C++%20With%20Source%20Code.jpg" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">C++ Student Database</h5>
+                        <p class="card-text">Developed a student database system using C++ to store and manage student information.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 project">
+                <div class="card">
+                    <img src="https://www.joydeepdeb.com/images/password-generator.jpg" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Password Generator</h5>
+                        <p class="card-text">Created a password generator for creating strong and effective passwords.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="resume" class="section resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" class="resume-button" target="_blank">Download Resume</a>
+        <div class="row">
+            <div class="col-md-6 section">
+                <h3>Education</h3>
+                <p>Bangalore Institute Technology | 2026</p>
+                <p>Bachelor of Engineering | Information Science and Engineering (ISE)</p>
+            </div>
+            <div class="col-md-6 section">
+                <h3>Experience</h3>
+                <p></p>
+                <p>Job Description and Responsibilities</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="section contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email: chowdhurysayantan935@gmail.com</p>
+            <p>Phone: +919088016421</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <!-- Add more social media icons as needed -->
+        </div>
+        <p>&copy; 2023 Sayantan Chowdhury. All rights reserved.</p>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
