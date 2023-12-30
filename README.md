@@ -6,8 +6,8 @@ Welcome to my CODSOFT Web Development Internship repository! Here, you'll find t
 
 ### Task 1: Landing Page
 - **Description**: Created an engaging landing page using HTML and CSS to introduce a product or service.
-- **Folder**: [landing-page](/landing page project)
-- **Preview**: [View Landing Page](/landing-page-project/index.html)
+- **Folder**: [landing-page](/Landing-page-project)
+- **Preview**: [View Landing Page](/Landing-page-project/index.html)
 
 ### Task 2: Portfolio
 - **Description**: Developed a personal portfolio website using HTML and CSS to showcase my skills, projects, and experience.
